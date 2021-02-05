@@ -36,8 +36,9 @@ class LinearModel(object):
             diff = self.theta*X[i][1] - y[i]
             sq_diffs.append(diff ** 2)
 
-        mapd = list(map(lambda x, y:  ))
+        # mapd = list(map(lambda x, y:  ))
         ssd = sum(sq_diffs)
+
         # *** END CODE HERE ***
 
     def create_poly(self, k, X):
